@@ -1,0 +1,82 @@
+
+.first  {
+	font-family:Georgia, times new roman,serif;
+	font-size: 1.5em;
+	color:red;
+}
+body {
+	color: blue;
+	background-color:#A6BDF9
+}
+
+h1  {
+	font-size: Georgia, times new roman, serif;
+	font-size:2.5em;
+	color:blue;
+	text-align:center;
+	background:-webkit-linear-gradient(#ABB1C1,#8DA9F5);
+}
+}
+
+
+
+
+
+}
+span :first-child {
+	color:red;
+}
+.extra-jumbotron  {
+	background-image:url("img/owl.jpg");
+  text-align:center;
+   width:1000%;
+   height:300px;
+  margin:auto;
+}
+
+
+
+
+
+
+	 @media screen and (min-width:900px){
+       .extra-jumbotron {
+				 width:800px;
+				 height:300px;
+
+			 }
+}
+   @media screen and (max-width:900px)and
+	     (min-width:500px) {
+				 .extra-jumbotron {
+					 width:570px;
+					 height:300px;
+				 }
+			 }
+			 @media screen and (max-width:500px) {
+				 .extra-jumbotron {
+					 width:300px;
+					 height:300px;
+				 }
+			 }
+img  {
+ float:left;
+	padding: 0 auto;
+	border:2px solid orange;
+
+}
+/*input:first-child{
+	color:red;8 tried to add this but didn't work*/
+}
+input:hover {
+	background-color: blue;
+}
+a:hover {
+ background-color: pink;
+}
+h3:first-line {
+	color: red;
+}
+h4 {
+	color:red;
+}
